@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sweater Design Page</title>
+  <style>
+    /* Add your styles here */
+    #canvas {
+      position: relative;
+      width: 600px;
+      height: 400px;
+      border: 1px solid #000;
+    }
+    .toolbar {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="toolbar">
+    <button onclick="showPremadeTemplates()">Premade Templates</button>
+    <button onclick="showSweaterSizes()">Sweater Sizes</button>
+    <button onclick="showClipart()">Clipart</button>
+    <button onclick="showUploadImage()">Upload Image</button>
+    <button onclick="undo()">Undo</button>
+    <button onclick="redo()">Redo</button>
+  </div>
+  
+  <div id="canvas" onclick="handleCanvasClick(event)">
+    <!-- Your design canvas goes here -->
+  </div>
+
+  <script>
+    // Add your JavaScript here
+
+    // Sample function to show the premade templates section
+    function showPremadeTemplates() {
+      // Implement logic to show premade templates
+      console.log('Showing Premade Templates');
+    }
+
+    // Sample function to show the sweater sizes section
+    function showSweaterSizes() {
+      // Implement logic to show sweater sizes
+      console.log('Showing Sweater Sizes');
+    }
+
+    // Sample function to show the clipart section
+    function showClipart() {
+      // Implement logic to show clipart
+      console.log('Showing Clipart');
+    }
+
+    // Sample function to show the upload image section
+    function showUploadImage() {
+      // Implement logic to show upload image
+      console.log('Showing Upload Image');
+    }
+
+    // Sample function to handle canvas click
+    function handleCanvasClick(event) {
+      // Implement logic to handle canvas element click
+      console.log('Canvas Clicked');
+    }
+
+    // Sample functions for undo and redo
+    function undo() {
+      // Implement undo logic
+      console.log('Undo');
+    }
+
+    function redo() {
+      // Implement redo logic
+      console.log('Redo');
+    }
+  </script>
+</body>
+</html>
